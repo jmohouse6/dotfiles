@@ -1,0 +1,22 @@
+{ "workbench.colorTheme": "Tokyo Night",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false,
+    "claudeCode.preferredLocation": "panel",
+    "mssql.connectionGroups": [
+      {
+        "name": "ROOT",
+        "id": "79E8117B-3740-4DBA-818C-1A0C502060C7"
+      }
+    ],
+    "vs-kubernetes": {
+      "vscode-kubernetes.minikube-path-linux": "/home/jman/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+      "vscode-kubernetes.helm-path-linux": "/home/jman/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+      "vscode-kubernetes.kubectl-path-linux": "/home/jman/.local/state/vs-kubernetes/tools/kubectl/kubectl"
+    },
+    "mssql.autoDisableNonTSqlLanguageService": true,
+    "chat.mcp.gallery.enabled": true,
+    "claudeCode.selectedModel": "sonnet"
+}

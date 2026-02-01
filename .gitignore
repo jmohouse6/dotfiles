@@ -1,0 +1,33 @@
+# VSCode workspace and cache files
+vscode/workspaceStorage/
+vscode/globalStorage/
+vscode/History/
+vscode/Cache/
+vscode/CachedData/
+vscode/logs/
+
+# Cache and temporary files
+*.cache
+*.log
+*.tmp
+*~
+
+# Secrets and credentials
+*secret*
+*token*
+*.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Hyprland/Omarchy backups
+*.bak.*
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Personal/machine-specific
+monitors.conf.backup
