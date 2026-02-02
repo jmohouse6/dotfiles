@@ -1,0 +1,15 @@
+[
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\\\r\n"
+        },
+        "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+alt+n",
+      "command": "claude-vscode.editor.openLast",
+      "when": "!config.claudeCode.useTerminal"
+    }
+]

@@ -1,0 +1,23 @@
+# Sensitive files
+**/secrets.conf
+**/*password*
+**/*.key
+**/*.pem
+
+# Cache and logs
+*.cache
+*.log
+.DS_Store
+
+# Backup files
+*.bak
+*.bak.*
+
+# VS Code workspace specific
+vscode/workspaceStorage/
+vscode/globalStorage/
+vscode/History/
+
+# Exclude large theme backgrounds (optional - keeping for full backup)
+# omarchy/themes/**/backgrounds/*.jpg
+# omarchy/themes/**/backgrounds/*.png

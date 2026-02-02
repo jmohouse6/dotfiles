@@ -1,0 +1,35 @@
+{ "workbench.colorTheme": "null",
+  "update.mode": "none",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ],
+    "chat.tools.terminal.autoApprove": {
+        "find dist/ -name \"*.html\" | head -5 | xargs ls -la": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "grep -o '<meta name=\"description\".*>' dist/index.html": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false,
+    "gitlens.views.scm.grouped.views": {
+      "commits": true,
+      "branches": true,
+      "remotes": true,
+      "stashes": true,
+      "tags": true,
+      "worktrees": true,
+      "contributors": true,
+      "fileHistory": true,
+      "repositories": true,
+      "searchAndCompare": false,
+      "launchpad": false
+    },
+    "claudeCode.preferredLocation": "panel"
+}
